@@ -1,4 +1,3 @@
-
 public class ChatRoomUser extends User{
 	
 	public ChatRoomUser(MessageMediator mediator, String name) {
@@ -9,7 +8,7 @@ public class ChatRoomUser extends User{
 	@Override
 	public void Send(String message, User sender) {
 		
-		System.out.println(this.name + " says " + message);
+		
 		
 		mediator.sendMessage(message, this);
 		
@@ -24,7 +23,6 @@ public class ChatRoomUser extends User{
 		if (message.contains("cat")){
 			
 			mediator.removeUser(sender);
-			System.out.println(sender.name + " was removed. Cat is a forbidden word. ");
 		}
 	}
 	

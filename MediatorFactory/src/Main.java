@@ -1,4 +1,3 @@
-
 public class Main {
 
 	public static void main(String[] args) {
@@ -13,6 +12,13 @@ public class Main {
 		Peter.Send("Hi.", Peter);
 		Ivan.Send("addBot", Ivan);
 		Georgi.Send("I have a cat", Georgi);
+		
+		
+		//test if Georgi is removed
+		Georgi.Send("ala bala", Georgi);
+		
+		//test if Georgi will receive the new message
+		Ivan.Send("ala bala", Ivan);
 		
 	}
 
