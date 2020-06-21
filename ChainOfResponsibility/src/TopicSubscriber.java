@@ -16,7 +16,7 @@ public class TopicSubscriber implements Observer{
 		}
 		
 		String topicName = topic.getUpdate();
-		System.out.println(this.getName() + " updated with: " + "Topic is: " + topicName);
+		System.out.println(this.getName() + " went to the warehouse. ");
 		
 	}
 	@Override

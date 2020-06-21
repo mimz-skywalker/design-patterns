@@ -5,7 +5,7 @@ public class CityOfPlovdivLogger extends Logger{
 	
 	public CityOfPlovdivLogger(String name) {
 		  this.name = name;
-		  this.level = Logger.COUNTRY;
+		  this.level = Logger.CITY_OF_PLOVDIV;
 	}
 
 	@Override

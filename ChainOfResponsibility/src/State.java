@@ -1,6 +1,6 @@
 
 public interface State {
-	public void applyState(Context context);
+	public void applyState(Logger context);
 	public String getStateName();
 
 

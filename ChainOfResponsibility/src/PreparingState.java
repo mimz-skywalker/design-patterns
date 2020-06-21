@@ -4,7 +4,7 @@ public class PreparingState implements State{
 	private String stateName = "PREPARING_STATE";
 
 	@Override
-	public void applyState(Context context) {
+	public void applyState(Logger context) {
 		context.setState(this);
 		
 	}

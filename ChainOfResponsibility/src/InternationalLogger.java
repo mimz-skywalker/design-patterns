@@ -13,6 +13,5 @@ public class InternationalLogger extends Logger {
 	@Override
 	protected void writeMessage(String message) {
 		System.out.println("International message says: " + message);
-		
 	}
 }
